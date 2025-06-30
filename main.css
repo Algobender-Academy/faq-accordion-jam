@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* || REST */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* || VARIABLES */
+:root {
+  /* COLORS */
+  --HEADER-BG: #301534;
+  --BODY-BG: #f8eeff;
+  --TITLE-CLR: #301534;
+  --CARD-BG: #fff;
+  --ANSWER-CLR: #8b6990;
+  --QUESTION-CLR: #301534;
+  --MINUS-BUTTON-BG: #301534;
+  --PLUS-BUTTON-BG: #ad28eb;
+  --QUESTION-HVR-CLR: #ad28eb;
+
+  /* DROP-SHADOW */
+  --CARD-SHADOW: 0px 32px 56px 0px hsla(281, 100%, 23%, 0.1);
+
+  /* TYPOGRAPHY */
+  --FF: "Work Sans", sans-serif;
+
+  /* TYPOGRAPHY-DSK */
+  --DISPLAY-DSK: bold 3.5rem var(--FF);
+  --TITLE-DSK: 600 1.125rem var(--FF);
+  --BODY-DSK: normal 1rem/150% var(--FF);
+
+  /* TYPOGRAPHY-MOB */
+  --DISPLAY-MOB: bold 2rem var(--FF);
+  --TITLE-MOB: 600 1rem var(--FF);
+  --BODY-MOB: normal 0.875rem/150% var(--FF);
+}
+
+/* || UTILITY CLASSES */
+.offscreen {
+  position: absolute;
+  left: -10000px;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.center {
+  text-align: center;
+}
+
+.responsive-image {
+  display: none;
+}
+
+/* MOBILE FIRST DESIGN */
+/* || GENERAL STYLES */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  max-width: 100%;
+  overflow-x: hidden;
+}
