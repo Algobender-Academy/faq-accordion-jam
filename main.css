@@ -155,3 +155,9 @@ main {
   color: var(--ANSWER-CLR);
   max-width: 279px;
 }
+
+.line {
+  width: 279px;
+  height: 1px;
+  background-color: var(--BODY-BG);
+}
