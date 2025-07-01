@@ -180,4 +180,49 @@ main {
 }
 
 @media screen and (min-width: 992px) {
+  /* || HEADER */
+  header {
+    height: 320px;
+  }
+
+  /* || CARD */
+  .faq__card {
+    top: -167.5px;
+    width: 600px;
+    padding: 2.5rem;
+    border-radius: 16px;
+  }
+
+  .faq__header {
+    font: var(--DISPLAY-DSK);
+    margin-bottom: 2rem;
+  }
+
+  .faq__icon-star img {
+    max-width: 40px;
+  }
+
+  .faq-accordion__item {
+    margin: 1.5rem 0rem;
+  }
+
+  .faq-accordion__question {
+    font: var(--TITLE-DSK);
+    max-width: 520px;
+  }
+
+  .faq-accordion__question span {
+    max-width: 449px;
+  }
+
+  .faq-accordion__answer {
+    font: var(--BODY-DSK);
+    max-width: 520px;
+  }
+
+  .faq-accordion__question .faq-accordion__question-text:hover,
+  .faq-accordion__question .faq-accordion__question-text:focus-visible {
+    color: var(--QUESTION-HVR-CLR);
+    cursor: pointer;
+  }
 }
